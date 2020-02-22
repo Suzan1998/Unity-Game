@@ -1,8 +1,0 @@
-cd /C:/Users/Suzan Kamal/Desktop/github/to/Unity-Game
-git symbolic-ref HEAD refs/heads/gh-pages
-rm .git/index
-git clean -fdx
-echo "My GitHub Page" > index.html
-git add .
-git commit -a -m "First pages commit"
-git push origin gh-pages
